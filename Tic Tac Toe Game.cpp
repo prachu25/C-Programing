@@ -53,7 +53,7 @@ int checkwin()
 void board()
 {
     system("cls");
-    cout <<"\n      TIC TAC TEO GAME \n";
+    cout <<"\n      TIC TAC TOE GAME \n";
     
     cout << "player 1(x)  - player 2(0)"<<endl <<endl;
     cout <<endl;
@@ -146,7 +146,7 @@ int main()
     board();
     if(i == 1)
     {
-        cout << "\aCONGRAALATION PLAYER! "<< --player << "wins!";
+        cout << "\aCONGRATULATION PLAYER! "<< --player << "wins!";
         
     }
     else
